@@ -116,7 +116,12 @@ body{
     text-align: center;
 }
 
-
+@media (max-width: 1200px) {
+    .header__name{
+        font-size: calc(100px + (150 - 100) * ((100vw - 320px) / (1200 - 320)));
+        max-width: 700px;
+    }
+}
 
 .header__btn {
     margin: 0 auto;
