@@ -408,8 +408,8 @@ body{
 }
 
 .serv__item {
-    width: 33.333%;
-    min-width: 400px;
+    width: 30%;
+    min-width: 380px;
     display: flex;
     margin: 0 0 60px 0;
 }
@@ -733,7 +733,7 @@ body{
 
 .work__foto {
     position: relative;
-    min-width: 390px;
+    min-width: 480px;
     max-width: 50%;
     background: linear-gradient(to bottom, #fce38a, #f38181) 0 0/cover no-repeat;
 }
